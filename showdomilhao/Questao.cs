@@ -1,3 +1,6 @@
+using System.Runtime.CompilerServices;
+using Windows.ApplicationModel.UserDataTasks;
+
 namespace showdomilhao;
 public class Questao
 {
@@ -29,9 +32,9 @@ public class Questao
     {
         if (resposta Certa == rr)
         {
-            var btn = Qualbtn (rr);
+            var btn = Qualbtn (rr)
             btn BackgrowColor = Colors.Green;
-            Return True;
+            return true;
         }
         else
         {
@@ -40,6 +43,29 @@ public class Questao
              btnCorreto.BackgrounColor = Colors.Yellow;
              btnIncorreto.BackgrounColor = Colors.Red;
              Return false;
+        }
+        private Button QualBtn(int rr)
+        {
+            if (rr==1)
+            return botaoResposta01;
+
+            else if (rr==2)
+            return BotaoResposta02;
+
+            else if (rr==3)
+            return BotaoResposta03;
+
+            else if (rr==3)
+            return BotaoResposta03;
+
+            else if (rr==4)
+            return BotaoResposta04;
+
+            else if (rr==5)
+            return BotaoResposta05;
+
+            else 
+             return null;
         }
     } 
 
