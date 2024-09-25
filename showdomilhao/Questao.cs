@@ -28,9 +28,9 @@ public class Questao
          buttonResposta5.Text = resposta5;
         
     }
-    public boll Verifica Resposta (int rr)
-    {
-        if (resposta Certa == rr)
+    public Boll Verifica Resposta (int rr)
+    
+        If (resposta Certa == rr)
         {
             var btn = Qualbtn (rr)
             btn BackgrowColor = Colors.Green;
@@ -39,15 +39,15 @@ public class Questao
         else
         {
             var btnCorreto = QualBtn (resposta1 Certa);
-            var btnIncorreto = QualBtn (RR);
-             btnCorreto.BackgrounColor = Colors.Yellow;
-             btnIncorreto.BackgrounColor = Colors.Red;
-             Return false;
+            var btnIncorreto = QualBtn (rr);
+             btnCorreto.BackgroundColor = Colors.Yellow;
+             btnIncorreto.BackgroundColor = Colors.Red;
+             return false;
         }
         private Button QualBtn(int rr)
         {
             if (rr==1)
-            return botaoResposta01;
+            return BotaoResposta01;
 
             else if (rr==2)
             return BotaoResposta02;
@@ -69,4 +69,3 @@ public class Questao
         }
     } 
 
-}

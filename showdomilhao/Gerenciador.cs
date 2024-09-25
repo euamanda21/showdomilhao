@@ -11,21 +11,21 @@ public Gerenciador(Label labelPergunta,Button btnResp01, Button btnResp02, Butto
 
 {
 
-    CriarQuestoes(labelPergunta,btnResp05,btnResp04,btnRwes05);
+    CriarQuestoes(labelPergunta,btnResp05,btnResp04,btnResp05);
 
 } 
 
 void CriarQuestoes(Label labelPergunta,Button btnResp01, Button btnResp02, Button btnResp03, Button btnResp04, Button btnResp05)
 {
     var q1=new Questao();
-    q1.pergunta = quanto e 2+2;
+    q1.pergunta = "Quanto é 2+2";
     q1.resposta01="1";
     q1.resposta02="13";
     q1.resposta03="21";
     q1.resposta04="11";
     q1.resposta05="4";
     q1.respostaCorreta=5;
-    q1.ConfigurarDesenho9(Label labelPergunta, Button btnResp01, Button btnResp02, Button btnResp03, Button btnResp04, Button btnResp05)
+    q1.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
     ListaQuestoes.Add(q1);
 
 var q1 = new Questao();
@@ -146,7 +146,7 @@ q10.respostaCorreta = 5;
 q10.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q10);
 
-nivel 2
+//nivel 2
 
 
 var q11 = new Questao();
@@ -164,7 +164,7 @@ ListaQuestoes.Add(q50);
 
 var ListaQuestoes = new List<Questao>();
 
-// Pergunta 1
+
 var q12 = new Questao();
 q12.pergunta = "Qual é o principal gás responsável pelo efeito estufa?";
 q12.resposta01 = "Oxigênio";
@@ -176,7 +176,7 @@ q1.respostaCorreta = 2;
 q1.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q1);
 
-// Pergunta 2
+
 var q13 = new Questao();
 q2.pergunta = "Qual a capital da Mongólia?";
 q2.resposta01 = "Ulaanbaatar";
@@ -188,7 +188,7 @@ q2.respostaCorreta = 1;
 q2.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp01, btnResp05);
 ListaQuestoes.Add(q2);
 
-// Pergunta 3
+
 var q14 = new Questao();
 q3.pergunta = "Qual é a obra mais famosa de Michelangelo?";
 q3.resposta01 = "A Criação de Adão";
@@ -200,7 +200,7 @@ q3.respostaCorreta = 2;
 q3.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q3);
 
-// Pergunta 4
+
 var q15 = new Questao();
 q4.pergunta = "Qual é a capital da Nova Zelândia?";
 q4.resposta01 = "Auckland";
@@ -272,7 +272,7 @@ q9.respostaCorreta = 2;
 q9.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q9);
 
-  nivel 02
+  //nivel 02
 var q21 = new Questao();
 q10.pergunta = "Qual é o conceito econômico que descreve o aumento geral dos preços?";
 q10.resposta01 = "Recessão";
@@ -392,7 +392,7 @@ q19.respostaCorreta = 4;
 q19.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q19);
 
- nivel 3
+ //nivel 3
 var q31 = new Questao();
 q20.pergunta = "Qual é o elemento químico mais abundante no universo?";
 q20.resposta01 = "Hélio";
@@ -515,7 +515,7 @@ q7.respostaCorreta = 2;
 q7.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q7);
 
- nivel 4
+ //nivel 4
 var q41 = new Questao();
 q8.pergunta = "Qual é o menor país do mundo?";
 q8.resposta01 = "Mônaco";
@@ -569,7 +569,7 @@ q12.pergunta = "Qual era o nome do famoso navio que afundou em 1912?";
 q12.resposta01 = "Britannic";
 q12.resposta02 = "Lusitania";
 q12.resposta03 = "Titanic";
-q12.resposta04 = "Oce
+q12.resposta04 = "Oce";
 var ListaQuestoes = new List<Questao>();
 
 // Pergunta 1
@@ -632,7 +632,7 @@ q5.respostaCorreta = 2;
 q5.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q5);
 
-nivel 5
+//nivel 5
 var ListaQuestoes = new List<Questao>();
 
 // Pergunta 1
@@ -755,7 +755,7 @@ q10.respostaCorreta = 1;
 q10.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q10);
 
-nivel 6
+//nivel 6
 
 var ListaQuestoes = new List<Questao>();
 
@@ -879,7 +879,7 @@ q10.respostaCorreta = 1;
 q10.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q10);
 
-nivel 7
+//nivel 7
 
 var ListaQuestoes = new List<Questao>();
 
@@ -1003,7 +1003,7 @@ q10.respostaCorreta = 1;
 q10.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q10);
 
-nivel 8
+//nivel 8
 
 var ListaQuestoes = new List<Questao>();
 
@@ -1127,7 +1127,7 @@ q10.respostaCorreta = 1;
 q10.ConfigurarDesenho9(labelPergunta, btnResp01, btnResp02, btnResp03, btnResp04, btnResp05);
 ListaQuestoes.Add(q10);
 
-nivel 9
+//nivel 9
 
 var ListaQuestoes = new List<Questao>();
 
@@ -1260,20 +1260,19 @@ ListaQuestoes.Add(q10);
 
 }
     var q2=new Questao();
-{ 
+
     public void ProximaQuestao()
    {
          var numRandomico=Random.Shared.Next(0,ListaQuestoes.Cout-1);
         while(listaQuestoesRespondidas.Add(numRandomico))
         numRandomico=Randon.Shared.next(0,ListaQuestoes.Count-1);
-          listaQuestoesRespondidas.Add(num)
+          listaQuestoesRespondidas.Add(num);
    }
 
 
 
-}
    public int pontuacao{get;private set;}
-   int nivel Atual=0;,
+   int nivelAtual=0;
    void Inicializar()
 {
   pontuacao=0;
@@ -1292,33 +1291,33 @@ ListaQuestoes.Add(q10);
 }
         else
     
-         awaint DisplayAlert("Game over","voce Perdeu!","ok");
+         awaint DisplayAlert = "Game over, Voce perdeu, ok";
          Inicializar();
     }
 
-{
-        Void AdicionaPontuacao(int rr)
+
+        void AdicionaPontuacao(int rr)
      {    
-        if(==1)
+        if(n==1)
         Pontuacao=1000;
         else if (n==2)
         Pontuacao=2000;
         else if (n==3)
         Pontuacao=5000;
         else if (n==4)
-        Pontuacao==10 000;
+        Pontuacao=10000;
         else if (n==5)
-        Pontuacao=20 000;
+        Pontuacao=20000;
         else if (n==6)
-        Pontuacao=50 000;
+        Pontuacao=50000;
         else if (n==7)
-        Pontuacao=100 000;
+        Pontuacao=100000;
         else if (n==8)
-        Pontuacao=200 000;
+        Pontuacao=200000;
         else if (n==9)
-        Pontuacao=500 000;
+        Pontuacao=500000;
         else
-        Pontuacao=1000 000;
+        Pontuacao=1000000;
      }
     
     
@@ -1326,9 +1325,6 @@ ListaQuestoes.Add(q10);
 
 
 
-}
-{
-         CriarQuestoes (Label labelPergunta, Button buttontResp01, Button buttontResp02, Button buttonResp03, Button buttonResp04, Button buttonResp05)
-    }
 
+    
     
