@@ -28,7 +28,7 @@ public class Questao
          buttonResposta5.Text = resposta5;
         
     }
-    public Boll Verifica Resposta (int rr)
+    public Boll VerificaResposta (int RR);
     
         If (resposta Certa == rr)
         {
